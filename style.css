@@ -24,7 +24,7 @@ h2 {
 .even {
   height: 200px;
   width: 200px;
-  border: 2px solid #f5f5f5;
+  border: 2px solid;
   border-radius: 50%;
   color: #f5f5f5;
   font-family: 'Raleway', san-sarif;
@@ -42,10 +42,20 @@ span {
   line-height: 200px;
   white-space: nowrap;
 }
+.icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2vh;
+}
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 3vh;
   border-radius: 50%;
+}
+#arrow {
+  font-size: 6vh;
+}
+.walter {
+  font-family: 'Raleway', san-sarif;
+  font-size: 3vh;
 }
